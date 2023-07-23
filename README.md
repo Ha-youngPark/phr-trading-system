@@ -82,7 +82,7 @@ The images below show the results of running PHRNet.
 Chaincode is smart contract on Hyperledger Fabric blockchain. Chaincode can be written in Go, JavaScript, and Java. I wanted to learn Go and try it out. So, in this project, chaincodes are written in Go. I referred to [commercial-paper chaincode in fabric sample repository](https://github.com/hyperledger/fabric-samples/tree/release-2.2/commercial-paper).
 
 #### phr.go  
-This contract defines state and structure of the phr. All ledger state share this form. A Fabric state is implemented as a key/value pair. A state key allows us to uniquely identify a paper.
+This contract defines state and structure of the phr. All ledger state share this form. A Fabric state is implemented as a key/value pair. A state key allows us to uniquely identify a phr.
 
 I replaced REDEEMED state with EXPIRED. EXPIRED is a state that MaturityDateTime or authority are over.
 
